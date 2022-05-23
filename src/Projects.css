@@ -1,4 +1,4 @@
-.all-projects{
+.main-project{
   height: 500px;
 	width: 1000px;
   box-shadow:
@@ -9,6 +9,25 @@
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
 	0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5px;
-	margin-top: 100px;
 	margin-left: 50px;
+  padding-left: 10px;
 }
+.all-projects{
+  margin-top: 50px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.single-project{
+  width: 300px;
+  height: 350px;
+
+}
+
+
+a:link{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+

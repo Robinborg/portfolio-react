@@ -1,17 +1,16 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Contact.css';
 
 const Contact = () => {
-	const [hidden, setHidden] = useState(false);
 
 	return (
-		<div className="all-contacts" onClick={() => setHidden(s => !s)}>
+		<div className="all-contacts">
 			<h2>Contact Details</h2>
-			{hidden ? <div>
 				<p>Email: robin.borgatrom@gmail.com</p>
-				<p>LinkedIn: https://www.linkedin.com/in/robin-borgstroem/</p>
-				<p>Twitter: https://twitter.com/RobinBorgstr_m</p>
-			</div> : null}
+			<br></br>
+			<a href="https://www.linkedin.com/in/robin-borgstroem/">LinkedIn Profile</a>
+			<br></br>
+			<a href="https://twitter.com/RobinBorgstr_m">Twitter Profile</a>
 		</div>
 	);
 };

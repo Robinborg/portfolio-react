@@ -1,15 +1,19 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './About.css';
 
-const About = (props) => {
-	const [hidden, setHidden] = useState(false)
+const About = () => {
 
 
 	return (
-		<div className="about-me" onClick = {() => setHidden(s => !s)}>
+		<div className="about-me">
 			<h1> Robin Borgström</h1>
-			<h3>About me</h3>
-			{hidden ? <p>Some more information about me</p> : null}
+			<br></br>
+			<h2>About me</h2>
+			<br></br>
+			<p>I am a self-taught programmer.</p>
+			<p>Programming in Python, Javascript, HTML and CSS.</p>
+			<p>I want to write code that helps people.</p>
+			<p>Everyday I learn a little more about programming. You can follow my progress on Twitter.</p>
 		</div>
 	);
 }
