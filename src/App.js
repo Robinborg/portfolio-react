@@ -5,13 +5,15 @@ import Contact from './Contact';
 
 const App = () => {
 	return (
-		<div>
+		<>
+		<div className="box">
 		  <About/>
-			<div className="box">
-			<Projects/>
 			<Contact/>
-			</div>
 		</div>
+		<div>
+			<Projects/>
+		</div>
+		</>
 	);
 };
 

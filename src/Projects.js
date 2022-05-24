@@ -21,7 +21,7 @@ const Projects = () => {
 				</div>
 				<div className="single-project">
 				<h4>Portfolio Site</h4>
-					<p>Portfolio site built with React.</p>
+					<p>Portfolio site built with React. Hosted on AWS Amplify.</p>
 					<br></br>
 					<a href="https://github.com/robinborg/portfolio-react">Github Link to Program</a>
 				</div>

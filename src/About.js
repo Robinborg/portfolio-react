@@ -13,7 +13,7 @@ const About = () => {
 			<p>I am a self-taught programmer.</p>
 			<p>Programming in Python, Javascript, HTML and CSS.</p>
 			<p>I want to write code that helps people.</p>
-			<p>Everyday I learn a little more about programming. You can follow my progress on Twitter.</p>
+			<p>Everyday I learn a more about programming. You can follow my progress on Twitter.</p>
 		</div>
 	);
 }

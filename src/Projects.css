@@ -1,5 +1,5 @@
 .main-project{
-  height: 500px;
+  height: 300px;
 	width: 1000px;
   box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -21,7 +21,7 @@
 
 .single-project{
   width: 300px;
-  height: 350px;
+  height: 100px;
 
 }
 
