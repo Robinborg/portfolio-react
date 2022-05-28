@@ -1,10 +1,9 @@
 import React from 'react';
-import './Projects.css';
 
 const Projects = () => {
 
 	return (
-		<div className="main-project">
+		<div className="main-project" id="projectsId">
 		  <h2>Projects</h2>
 			<div className="all-projects">
 				<div className="single-project">

@@ -1,19 +1,18 @@
 import React from 'react';
-import About from './About.js';
+
+import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import NavBar from './Navbar';
 
 const App = () => {
 	return (
-		<>
-		<div className="box">
-		  <About/>
-			<Contact/>
-		</div>
 		<div>
-			<Projects/>
+		  <NavBar/>
+		  <About/>
+		  <Projects/>
+		  <Contact/>
 		</div>
-		</>
 	);
 };
 

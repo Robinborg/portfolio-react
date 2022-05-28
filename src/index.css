@@ -1,11 +1,67 @@
-*{
+html, body{
 	margin: 0;
 	padding: 0;
+	height: 100%;
 	background-color: #4C566A;
   color: #D8DEE9;
+	font-family: helvetica;
+	font-size: 30px;
 }
-
 .box{
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
 }
+.about-me {
+	height: 100vh;
+}
+.about-box {
+	background-color: #2E3440;
+	border-radius: 25px;
+	margin-left: 80px;
+	width: 50%;
+	box-shadow: 3px 3px 3px 3px #404040;
+	font-size: 20px;
+	padding-left: 80px;
+	padding-bottom: 20px;
+}
+.main-project {
+	height: 100vh;
+	background-color: #434C5E;
+}
+.all-projects{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: -10px;
+}
+.single-project {
+	border-radius: 25px;
+	background-color: #2E3440;
+	width: 400px;
+	height: 650px;
+	box-shadow: 2px 2px 3px 2px #404040;
+	padding-left: 10px;
+}
+.all-contacts {
+	height: 100vh;
+	background-color: #3B4252;
+	margin-top: -50px;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+

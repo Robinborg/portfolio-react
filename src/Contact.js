@@ -1,10 +1,8 @@
 import React from 'react';
-import './Contact.css';
 
 const Contact = () => {
-
 	return (
-		<div className="all-contacts">
+		<div className="all-contacts" id="contactId">
 			<h2>Contact Details</h2>
 			<br></br>
 				<p>Email: robin.borgatrom@gmail.com</p>
