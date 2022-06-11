@@ -4,11 +4,9 @@ const Contact = () => {
 	return (
 		<div className="all-contacts" id="contactId">
 			<h2>Contact Details</h2>
-			<br></br>
-				<p>Email: robin.borgatrom@gmail.com</p>
-			<br></br>
+				<p>Email: robin.c.borgstrom@gmail.com</p>
 			<a href="https://www.linkedin.com/in/robin-borgstroem/">LinkedIn Profile</a>
-			<br></br>
+			<br/>
 			<a href="https://twitter.com/RobinBorgstr_m">Twitter Profile</a>
 		</div>
 	);

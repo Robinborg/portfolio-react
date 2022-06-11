@@ -8,12 +8,15 @@ html, body{
 	font-size: 30px;
 }
 .box{
+	padding: 5px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 .about-me {
 	height: 100vh;
+	padding: 5px;
+	padding-left: 20px;
 }
 .about-box {
 	background-color: #2E3440;
@@ -22,18 +25,20 @@ html, body{
 	width: 50%;
 	box-shadow: 3px 3px 3px 3px #404040;
 	font-size: 20px;
-	padding-left: 80px;
+	padding: 5px;
+	padding-left: 20px;
 	padding-bottom: 20px;
 }
 .main-project {
 	height: 100vh;
 	background-color: #434C5E;
+	padding: 5px;
+	padding-left: 20px;
 }
 .all-projects{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin-bottom: -10px;
 }
 .single-project {
 	border-radius: 25px;
@@ -46,7 +51,13 @@ html, body{
 .all-contacts {
 	height: 100vh;
 	background-color: #3B4252;
-	margin-top: -50px;
+	padding: 5px;
+	padding-left: 20px;
+}
+.box-link {
+	border-radius: 5px;
+	border:  1px transparent #D8DEE9;
+	box-shadow: 1px 1px 1px 1px #404040;
 }
 a:link {
 	color: white;

@@ -8,21 +8,30 @@ const Projects = () => {
 			<div className="all-projects">
 				<div className="single-project">
 				<h4>Invoice Program</h4>
-					<p>Command-line program that creates custom invoices. Stores products, customers and invoices in a database.</p>
-					<br></br>
-					<a href="https://github.com/robinborg/invoice_program">Github Link to Program</a>
+					<p>Command-line program that creates PDF invoices with ReportLab. Stores products, customers and invoices with SQLAlchemy handlers in a SQLite database.</p>
+					<a 
+					  href="https://github.com/robinborg/invoice_program"
+						className="box-link">
+					Github
+					</a>
 				</div>
 				<div className="single-project">
 				<h4>Note Taking App</h4>
-					<p>Command-line program to keep notes on books, podcasts and plain notes.</p>
-					<br></br>
-					<a href="https://github.com/robinborg/note_taking_app">Github Link to Program</a>
+					<p>Command-line program that stores Notes, Books title and review, Podcast title and review and Website url and review with PyMongo handlers in a MongoDB. The Website Module can gather all links from a website</p>
+					<a 
+						className="box-link"
+					href="https://github.com/robinborg/note_taking_app">
+					Github
+					</a>
 				</div>
 				<div className="single-project">
 				<h4>Portfolio Site</h4>
-					<p>Portfolio site built with React. Hosted on AWS Amplify.</p>
-					<br></br>
-					<a href="https://github.com/robinborg/portfolio-react">Github Link to Program</a>
+					<p>This Portfolio site built with React and Hosted on AWS Amplify.</p>
+					<a 
+						className="box-link" 
+					  href="https://github.com/robinborg/portfolio-react">
+						Github
+					</a>
 				</div>
 			</div>
 		</div>
