@@ -7,6 +7,7 @@ const NavBar = () => {
 		<div className="box">
 			<div>
 				<Link activeClass="active"
+					className="linkify"
 					to="aboutId"
 					spy
 					smooth
@@ -17,6 +18,7 @@ const NavBar = () => {
 			</div>
 			<div>
 				<Link activeClass="active"
+					className="linkify"
 					to="projectsId"
 					spy
 					smooth
@@ -26,6 +28,7 @@ const NavBar = () => {
 			</div>
 			<div>
 				<Link activeClass="active"
+					className="linkify"
 					to="contactId"
 					spy
 					smooth
