@@ -11,7 +11,6 @@ const NavBar = () => {
 					spy
 					smooth
 					duration={500}
-					className="box-link"
 				>
 					About
 				</Link>
@@ -21,8 +20,7 @@ const NavBar = () => {
 					to="projectsId"
 					spy
 					smooth
-					duration={500}
-				  className="box-link">
+					duration={500}>
 					Projects
 				</Link>
 			</div>
@@ -31,8 +29,7 @@ const NavBar = () => {
 					to="contactId"
 					spy
 					smooth
-					duration={500}
-				  className="box-link">
+					duration={500}>
 					Contact
 				</Link>
 			</div>

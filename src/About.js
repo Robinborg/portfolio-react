@@ -8,11 +8,11 @@ const About = () => {
 			<br></br>
 			<div className="about-box">
 			<h2>About me</h2>
-			<p>I am a self-taught programmer. The first language I learned was Python, then some C++ and now
+				<p>I am a self-taught programmer. 
+				The first language I learned was Python, then some C++ and now
 			   Javascript & React, HTML and CSS.
-			</p>
-			<p>
-				My goal is to be a data scientist. Before getting into Data Science I want to work as a programmer or web developer. To build
+					My goal is to be a data scientist. Before getting into Data Science I want to work as a programmer or web developer. To build
+
 				up an intuition of how programs and algorithms function.
 			</p>
 				<p>
