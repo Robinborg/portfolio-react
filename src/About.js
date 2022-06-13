@@ -1,10 +1,19 @@
 import React from 'react';
 import './index.css';
+import profile from './profile_1mb.png';
+
+const myImage = () => {
+	return <img src={profile} alt="myImage"/>;
+};
 
 const About = () => {
 	return (
-		<div className="about-me" id="aboutId">
+		<div>
+			<div className="profile-setup">
 			<h1> Robin Borgström</h1>
+			{myImage()}
+			</div>
+		  <div className="about-me" id="aboutId">
 			<br></br>
 			<div className="about-box">
 			<h2>About me</h2>
@@ -16,7 +25,7 @@ const About = () => {
 				up an intuition of how programs and algorithms function.
 			</p>
 				<p>
-					My days are focused on learning Discrete Mathematics and Calculus, Data Strucutres and Algorithms, and working on my projects on Github.
+					My days are focused on learning Discrete Mathematics and Calculus, Data Structures and Algorithms, and working on my projects on Github.
 				</p>
 				<p>
 					You can follow my progress on Twitter
@@ -24,6 +33,7 @@ const About = () => {
 				<a href="https://twitter.com/RobinBorgstr_m">Twitter</a>
 			</div>
 		</div>
+	</div>
 	);
 }
 
