@@ -4,7 +4,7 @@ import './index.css';
 
 const NavBar = () => {
 	return (
-		<div className="box">
+		<div className="box-own">
 			<div>
 				<Link activeClass="active"
 					className="linkify"

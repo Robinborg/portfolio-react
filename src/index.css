@@ -11,7 +11,7 @@ html, body{
 	font-family: helvetica;
 	font-size: 30px;
 }
-.box{
+.box-own{
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
@@ -76,7 +76,7 @@ html, body{
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
-
+	color: white;
 }
 a:link {
 	color: white;

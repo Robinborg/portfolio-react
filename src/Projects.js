@@ -12,16 +12,16 @@ const Projects = () => {
 					<a 
 					  href="https://github.com/robinborg/invoice_program"
 						className="box-link">
-					Github
+					<i className="github icon"></i>Github
 					</a>
 				</div>
 				<div className="single-project">
 				<h4>Note Taking App</h4>
-					<p>Command-line program that stores Notes, Books title and review, Podcast title and review and Website url and review with PyMongo handlers in a MongoDB. The Website Module can gather all links from a website</p>
+					<p>Command-line program that stores Notes, Books title and review, Podcast title and review and Website url and review with PyMongo handlers in a MongoDB. The Website Module can gather all links from a website.</p>
 					<a 
 						className="box-link"
 					href="https://github.com/robinborg/note_taking_app">
-					Github
+						<i className="github icon"></i>Github
 					</a>
 				</div>
 				<div className="single-project">
@@ -30,11 +30,20 @@ const Projects = () => {
 					<a 
 						className="box-link" 
 					  href="https://github.com/robinborg/portfolio-react">
-						Github
+						<i className="github icon"></i>Github
 					</a>
 				</div>
+				<div className="single-project">
+				<h4>Gym App</h4>
+				<p>React Program that keeps track of Sets, reps and breaks. Wrote the program using Hooks.</p>
+					<a
+				    href="https://github.com/robinborg/gym-app"
+				  	className="box-link">
+						<i className="github icon"></i>Github
+					</a>
+				</div>
+				</div>
 			</div>
-		</div>
 	);
 }
 

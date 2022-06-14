@@ -30,7 +30,10 @@ const About = () => {
 				<p>
 					You can follow my progress on Twitter
 				</p>
-				<a href="https://twitter.com/RobinBorgstr_m">Twitter</a>
+				<a href="https://twitter.com/RobinBorgstr_m">
+					<i className="twitter icon">
+					</i>
+						Twitter</a>
 			</div>
 		</div>
 	</div>
