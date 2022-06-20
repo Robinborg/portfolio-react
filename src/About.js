@@ -17,16 +17,12 @@ const About = () => {
 			<br></br>
 			<div className="about-box">
 			<h2>About me</h2>
-				<p>I am a self-taught programmer. 
-				The first language I learned was Python, then some C++ and now
-			   Javascript & React, HTML and CSS.
-					My goal is to be a data scientist. Before getting into Data Science I want to work as a programmer or web developer. To build
-
-				up an intuition of how programs and algorithms function.
-			</p>
-				<p>
-					My days are focused on learning Discrete Mathematics and Calculus, Data Structures and Algorithms, and working on my projects on Github.
-				</p>
+				<p>Two years ago I began learning programming to better understand logic and mathematics.</p>
+				<p>I started learning Python because it was a recommended first language and later I could use it for machine learning and data analysis.</p>
+				<p>As I was learning Python,  it became clear that Python did a lot for me. That lead me to learning C++ to understand the lower-level logic and have better control of my programs.</p>
+				<p>Now I am focused on learning Web Development to make websites. I am in the process of learning Javascript, HTML, CSS, Typescript and React.</p> 
+				<p>On Github you can find several projects I have written and I have chosen a few of them for this website with a summary for them.</p>
+				<p>Consistency is a constant for success, that is why each day I learn mathematics, learn about algorithms, write code for my projects and make a small daily program. Accountability is necessary for consistency, that is why I tweet each day what I have done.</p>
 				<p>
 					You can follow my progress on Twitter
 				</p>
