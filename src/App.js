@@ -7,7 +7,7 @@ import NavBar from './Navbar';
 
 const App = () => {
 	return (
-		<div>
+		<div className="center-all">
 		  <NavBar/>
 		  <About/>
 		  <Projects/>

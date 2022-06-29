@@ -2,8 +2,9 @@ import React from 'react';
 
 const Contact = () => {
 	return (
-		<div className="all-contacts" id="contactId">
+		<div>
 			<h2>Contact Details</h2>
+		<div className="about-box" id="contactId">
 				<p>Email: robin.c.borgstrom@gmail.com</p>
 			<a href="https://www.linkedin.com/in/robin-borgstroem/">
 				<i className="linkedin icon"></i>
@@ -19,6 +20,7 @@ const Contact = () => {
 				<i className="github icon"></i>
 				Github Profile
 			</a>
+		</div>
 		</div>
 	);
 };

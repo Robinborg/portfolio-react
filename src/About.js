@@ -14,9 +14,8 @@ const About = () => {
 			{myImage()}
 			</div>
 		  <div className="about-me" id="aboutId">
-			<br></br>
-			<div className="about-box">
 			<h2>About me</h2>
+			<div className="about-box">
 				<p>Two years ago I began learning programming to better understand logic and mathematics.</p>
 				<p>I started learning Python because it was a recommended first language and later I could use it for machine learning and data analysis.</p>
 				<p>As I was learning Python,  it became clear that Python did a lot for me. That lead me to learning C++ to understand the lower-level logic and have better control of my programs.</p>

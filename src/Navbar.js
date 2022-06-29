@@ -11,8 +11,7 @@ const NavBar = () => {
 					to="aboutId"
 					spy
 					smooth
-					duration={500}
-				>
+					duration={500}>
 					About
 				</Link>
 			</div>

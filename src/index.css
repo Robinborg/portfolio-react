@@ -11,16 +11,23 @@ html, body{
 	font-family: helvetica;
 	font-size: 30px;
 }
+.center-all {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 .box-own{
 	padding: 5px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 .about-me {
 	min-height: 100%;
 	padding: 5px;
 	padding-left: 20px;
+	overflow-x: auto;
 }
 .about-box {
 	background-color: #2E3440;
@@ -33,28 +40,20 @@ html, body{
 }
 .main-project {
 	min-height: 100%;
-	background-color: #434C5E;
-	padding: 5px;
 	padding-left: 20px;
-	
 }
 .all-projects{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	padding-left: 20px;
-	padding-bottom: 20px;
-	overflow-x: hidden;
-	white-space: pre-wrap;
+	justify-content: space-evenly;
+	gap: 10px 20px;
 }
 .single-project {
 	border-radius: 25px;
 	background-color: #2E3440;
-	width: 400px;
-	height: 650px;
 	box-shadow: 2px 2px 3px 2px #404040;
-	padding-left: 10px;
 	height: 100%;
+	padding-left: 5px;
 }
 .all-contacts {
 	min-height: 100%;
@@ -68,15 +67,15 @@ html, body{
 	box-shadow: 1px 1px 1px 1px #404040;
 }
 .linkify {
-	background-color: #3B4252;
 	border-radius: 10px;
-	border: none;
+	border: 1px solid white;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
 	color: white;
+	margin: 10px;
 }
 a:link {
 	color: white;
