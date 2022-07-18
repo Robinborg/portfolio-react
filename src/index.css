@@ -6,9 +6,11 @@ html, body{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background-color: #4C566A;
-  color: #D8DEE9;
-	font-family: helvetica;
+	/*background-color: #4C566A;*/
+	background-color: white;
+  /*color: #D8DEE9;*/
+	color: black;
+	font-family: helvetica, Arial, Times New Roman;
 	font-size: 30px;
 }
 .center-all {
@@ -30,9 +32,11 @@ html, body{
 	overflow-x: auto;
 }
 .about-box {
-	background-color: #2E3440;
+	/*background-color: #2E3440;*/
+	border: 1px solid black;
+	color: black;
 	border-radius: 25px;
-	box-shadow: 3px 3px 3px 3px #404040;
+	box-shadow: 1px 1px 1px 1px #404040;
 	font-size: 20px;
 	padding: 5px;
 	padding-left: 20px;
@@ -50,14 +54,17 @@ html, body{
 }
 .single-project {
 	border-radius: 25px;
-	background-color: #2E3440;
-	box-shadow: 2px 2px 3px 2px #404040;
+	/*background-color: #2E3440;*/
+	border: 1px solid black;
+	color: black;
+	box-shadow: 1px 1px 1px 1px #404040;
 	height: 100%;
 	padding-left: 5px;
 }
 .all-contacts {
 	min-height: 100%;
-	background-color: #3B4252;
+	/*background-color: #3B4252;*/
+	background-color: black;
 	padding: 5px;
 	padding-left: 20px;
 }
@@ -68,24 +75,23 @@ html, body{
 }
 .linkify {
 	border-radius: 10px;
-	border: 1px solid white;
+	border: 1px solid black;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
-	color: white;
+	color: black;
 	margin: 10px;
 }
 a:link {
-	color: white;
-	text-decoration: none;
+	color: black;
 }
 a:visited {
-	color: white;
-	text-decoration: none;
+	color: black;
 }
 a:hover {
+	background-color: black;
 	color: white;
 	text-decoration: none;
 }
