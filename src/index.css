@@ -48,9 +48,14 @@ html, body{
 }
 .all-projects{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-evenly;
 	gap: 10px 20px;
+	margin: 10px;
+}
+.gym-app {
+	border: 1px solid black;
+	border-radius: 5px;
 }
 .single-project {
 	border-radius: 25px;

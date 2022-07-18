@@ -35,8 +35,13 @@ const Projects = () => {
 				</div>
 				<div className="single-project">
 				<h4>Gym App</h4>
-				<p>React Program that keeps track of Sets, reps and breaks. Wrote the program using Hooks.</p>
-					<a
+					<p>Program that helps the user Gym. The program was written with React and Redux. User can enter exercises and select a break length of 3, 4 or 5 minutes. Try the app here: &ensp;
+					<a 
+						className="gym-app"
+						href="https://robinborg.github.io/gym-app/">gym-app</a>
+					</p>
+					<br/>
+					<a 
 				    href="https://github.com/robinborg/gym-app"
 				  	className="box-link">
 						<i className="github icon"></i>Github
