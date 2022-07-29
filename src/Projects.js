@@ -17,7 +17,7 @@ const Projects = () => {
 				</div>
 				<div className="single-project">
 				<h4>Note Taking App</h4>
-					<p>Command-line program that stores Notes, Books title and review, Podcast title and review and Website url and review with PyMongo handlers in a MongoDB. The Website Module can gather all links from a website.</p>
+					<p>Command-line program that stores Notes, Books title and a review, Podcast title and a review and Website url and a review. Uses PyMongo handlers to store information in a MongoDB. The Website Module can gather all links from a website.</p>
 					<a 
 						className="box-link"
 					href="https://github.com/robinborg/note_taking_app">
@@ -35,7 +35,7 @@ const Projects = () => {
 				</div>
 				<div className="single-project">
 				<h4>Gym App</h4>
-					<p>Program that helps the user Gym. The program was written with React and Redux. User can enter exercises and select a break length of 3, 4 or 5 minutes. Try the app here: &ensp;
+					<p>Gym app that lets user enter exercises, pick a rest time, track their sets and reps they update when the user presses the start break button. The program was written with React and Redux. Try the app here: &ensp;
 					<a 
 						className="gym-app"
 						href="https://robinborg.github.io/gym-app/">gym-app</a>
