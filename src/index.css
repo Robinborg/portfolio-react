@@ -1,22 +1,19 @@
 html, body{
 	margin: 0;
 	padding: 0;
-	background-color: white;
-	color: black;
+	background-color: #212121;
+	color: white;
 	font-family: helvetica, Arial, Times New Roman;
 	font-size: 30px;
 }
 .center-all {
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
 }
 .box-own {
-	padding: 5px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 }
 @media only screen and (max-width: 600px) {
   .box-own {
@@ -24,75 +21,55 @@ html, body{
   }
 }
 .about-me {
-	padding: 5px;
-	padding-left: 20px;
 }
 .about-box {
-	border: 1px solid black;
-	font-size: 20px;
-	color: black;
-	border-radius: 25px;
-	box-shadow: 1px 1px 1px 1px #404040;
-	padding: 5px;
-	padding-left: 20px;
+	font-size: 30px;
+	color: white;
 	padding-bottom: 20px;
+	height: 100%;
 }
 .main-project {
-	padding-left: 20px;
 }
 .all-projects{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	gap: 10px 20px;
-	margin: 10px;
 }
 .gym-app {
-	border: 1px solid black;
 	border-radius: 5px;
-	padding: 2px;
 }
 .single-project {
 	border-radius: 25px;
-	border: 1px solid black;
-	color: black;
-	box-shadow: 1px 1px 1px 1px #404040;
+	color: white;
 	height: 100%;
-	padding-left: 5px;
 }
 .all-contacts {
 	min-height: 100%;
-	background-color: black;
-	padding: 5px;
-	padding-left: 20px;
+	background-color: white;
 }
 .box-link {
 	border-radius: 5px;
 	border:  1px transparent #D8DEE9;
-	box-shadow: 1px 1px 1px 1px #404040;
 }
 .linkify {
 	border-radius: 10px;
-	border: 1px solid black;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	cursor: pointer;
-	color: black;
-	margin: 10px;
+	color: white;
 }
 .profile-setup {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 5px;
 }
 .profile-picture {
   width: 250px;
   height: 200px;
   border-radius: 15px;
-	box-shadow: 1px 1px 1px 1px #404040;
 }
 @media only screen and (max-width: 535px) {
   .profile-picture {
@@ -100,14 +77,14 @@ html, body{
   }
 }
 a:link {
-	color: black;
+	color: white;
 }
 a:visited {
-	color: black;
+	color: white;
 }
 a:hover {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	text-decoration: none;
 }
 a:active {
